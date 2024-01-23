@@ -1,0 +1,21 @@
+> data.frame(Name=c("Jeb","Donald","Ted","Marco","Carly","Hillary","Bernie"),'ABC Political Poll'=c("4","62","51","21","2","14","15"),'CBS Political Poll'=c("12","75","43","19","1","24","19"))
+      Name ABC.Political.Poll CBS.Political.Poll
+1     Jeb                  4                 12
+2  Donald                 62                 75
+3     Ted                 51                 43
+4   Marco                 21                 19
+5   Carly                  2                  1
+6 Hillary                 14                 24
+7  Bernie                 15                 19
+
+#second, more visually pleasing, attempt
+
+> data.frame(Name=c("Jeb","Donald","Ted","Marco","Carly","Hillary","Bernie"),ABC=c("4","62","51","21","2","14","15"),CBS=c("12","75","43","19","1","24","19"))
+     Name ABC CBS
+1     Jeb   4  12
+2  Donald  62  75
+3     Ted  51  43
+4   Marco  21  19
+5   Carly   2   1
+6 Hillary  14  24
+7  Bernie  15  19
